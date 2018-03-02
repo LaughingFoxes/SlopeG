@@ -144,12 +144,12 @@ Shader "Sunpy/LightingShader"
 
 
 				// Because I am lazy and got confused in the ordering of lerp I somehow inverted the day scale without knowing so this will fix it after I have used it
-				day						= 1.0 - day;
+				day						= 1.5 - day * 1.5;
 
 				// Apply light layer
 				col.rgb				   *= max(max(fixed3(day, day, day), fixed3(0.2, 0.2, 0.2)), light.rgb);
 				// Apply background
-				col.rgb					= backgroundLayer.rgb + col.rgb;
+				col.rgb					= col.rgb + lerp(backgroundLayer.rgb, float3(0.0, 0.0, 0.0), col.a * day);
 
 				return col;
 			}
