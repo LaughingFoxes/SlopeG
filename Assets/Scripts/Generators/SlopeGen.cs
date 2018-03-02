@@ -7,6 +7,8 @@ using UnityEngine;
 [RequireComponent(typeof(MeshRenderer))]
 public class SlopeGen : MonoBehaviour {
     public Vector2[] points;
+    public int slopeVersion = 0;
+    public bool tmpSlope = true;
 
     Mesh mesh = null;
 

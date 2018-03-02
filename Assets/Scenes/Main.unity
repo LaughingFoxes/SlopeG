@@ -276,7 +276,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f32787c489525c0488dc49c86dcb129b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  height: 50
   points:
   - {x: 0, y: 0}
   - {x: 21.710001, y: 0}
@@ -288,6 +287,8 @@ MonoBehaviour:
   - {x: 60.81, y: -48.9}
   - {x: 64.5, y: -33.3}
   - {x: 64.5, y: -44.36}
+  slopeVersion: 2
+  tmpSlope: 1
 --- !u!4 &62484556
 Transform:
   m_ObjectHideFlags: 0
@@ -459,7 +460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2e304247b5a7b74aa51d8f680326bb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hourOfTheDay: 2.7183447
+  hourOfTheDay: 13.5357275
   timeElapseModifier: 0.5
   lightCamera: {fileID: 570628077}
   lightingShaderMaterial: {fileID: 2100000, guid: faeb5e9bc2722ca4e9d6575074d59418,
