@@ -6,7 +6,6 @@ using UnityEngine;
 [RequireComponent(typeof(MeshFilter))]
 [RequireComponent(typeof(MeshRenderer))]
 public class SlopeGen : MonoBehaviour {
-    public float height = 10f;
     public Vector2[] points;
 
     Mesh mesh = null;
@@ -27,7 +26,7 @@ public class SlopeGen : MonoBehaviour {
         CreateChildPoints();
 
         mesh = GetComponent<MeshFilter>().mesh;
-        Generate(height);
+        Generate(2000);
     }
 
     public void CreateChildPoints()

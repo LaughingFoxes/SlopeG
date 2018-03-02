@@ -20,7 +20,7 @@ public class SlopeGenChild : MonoBehaviour {
 
         int index = int.Parse(name.Split('#')[1]);
         slope.points[index] = transform.localPosition;
-        slope.Generate(slope.height);
+        slope.Generate(2000);
 
         oldPos = transform.localPosition;
     }
