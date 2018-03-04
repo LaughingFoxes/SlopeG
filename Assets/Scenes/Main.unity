@@ -440,6 +440,7 @@ GameObject:
   - component: {fileID: 417253632}
   - component: {fileID: 417253631}
   - component: {fileID: 417253636}
+  - component: {fileID: 417253637}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -530,11 +531,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2e304247b5a7b74aa51d8f680326bb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hourOfTheDay: 6.4801307
+  hourOfTheDay: 13.604894
   timeElapseModifier: 0.5
   lightCamera: {fileID: 570628077}
   lightingShaderMaterial: {fileID: 2100000, guid: faeb5e9bc2722ca4e9d6575074d59418,
     type: 2}
+--- !u!114 &417253637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 417253630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb2a7cc4f024b7d45a0d5ce36b72703a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 341712936}
 --- !u!1 &460550413
 GameObject:
   m_ObjectHideFlags: 0
@@ -4394,11 +4407,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4888031014281702, guid: 6c9813db1cbdf8743903181967dbd0a9, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.5
+      value: -22.43
       objectReference: {fileID: 0}
     - target: {fileID: 4888031014281702, guid: 6c9813db1cbdf8743903181967dbd0a9, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 3.22
       objectReference: {fileID: 0}
     - target: {fileID: 4888031014281702, guid: 6c9813db1cbdf8743903181967dbd0a9, type: 2}
       propertyPath: m_LocalPosition.z
