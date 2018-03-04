@@ -10,10 +10,10 @@ public class MainMenu : MonoBehaviour {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    // Open the Options-menu (currently non-existent)
+    // NOT USED.
     public void openOptions()
     {
-        Debug.Log("sonpi pls help me code here");
+        Debug.Log("cleeeean and smooth code readable for real");
     }
 
     // Quits the game when called
